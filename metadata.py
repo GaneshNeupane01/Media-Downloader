@@ -4,7 +4,7 @@ from urllib.parse import quote
 import os
 from bs4 import BeautifulSoup
 
-GENIUS_API_KEY = "f-STK_KYiwc0xlEI3heyY9O9HPvQFdnfo2_vl6YKS_H_yfbH65reCTGtQlOCtUyR"
+GENIUS_API_KEY = "Your key here"
 LRCLIB_BASE_URL = "https://lrclib.net"  # Public LRCLib instance
 
 def is_valid_lyrics(lyrics, title):
@@ -165,3 +165,4 @@ def add_metadata(file_path, title, artists, album, year, genre, thumbnail_url, i
     except Exception as e:
         print(title, artists, album, year, genre, file_path, thumbnail_url)
         print(f"Metadata error: {e}")
+
